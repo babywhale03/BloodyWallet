@@ -1,0 +1,92 @@
+.card-container {
+  width: 158px;
+  height: 153px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin: 20px 0;
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 0;
+  padding-left: 20px;
+}
+
+.card-header-title {
+  color: var(--Main-Font, #2c2c2c);
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.12px;
+  margin-left: 10px;
+}
+
+hr {
+  border: 1px dashed #d9d9d9;
+  margin: 0px;
+}
+
+.card-content {
+  width: 126px;
+  color: #969696;
+  font-family: Pretendard;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px; /* 130% */
+  letter-spacing: 0.1px;
+  margin: 10px auto 5px auto;
+}
+
+.card-footer {
+  color: var(--Main-Font, #2c2c2c);
+  font-family: Pretendard;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+  margin: 0 16px;
+}
+
+.card-footer > span {
+  color: var(--Main-Font, #2c2c2c);
+  font-family: Pretendard;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.12px;
+  margin-left: 10px;
+}
+
+.donate-button {
+  color: var(--Main-Color, #ff5b5b);
+  font-family: Pretendard;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  width: 59px;
+  height: 18px;
+  flex-shrink: 0;
+  border-radius: 12.5px;
+  border: 1px solid var(--Main-Color, #ff5b5b);
+  background: var(--White-Font, #fff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}

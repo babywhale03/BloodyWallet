@@ -1,0 +1,128 @@
+.card-container {
+  width: 278px;
+  height: 165px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 0.5px solid #f2f2f2;
+  background: #fff;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.16);
+  margin: 100px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.card-title {
+  color: var(--Main-Font, #2c2c2c);
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.16px;
+}
+
+.card-header > img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-controller {
+  width: 65px;
+  height: 20px;
+  flex-shrink: 0;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #dfdfdf;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.card-controller button {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  border: none;
+  background-color: #dfdfdf;
+  color: #969696;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content-detail {
+  color: var(--Main-Font, #2c2c2c);
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 108.333% */
+  letter-spacing: 0.12px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.card-button {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+}
+
+.card-button-cancel {
+  width: 59px;
+  height: 18px;
+  flex-shrink: 0;
+  border-radius: 12.5px;
+  border: 1px solid var(--Sub-Font, #969696);
+  color: var(--Sub-Font, #969696);
+  font-family: Pretendard;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.card-button-donate {
+  width: 59px;
+  height: 18px;
+  flex-shrink: 0;
+  border-radius: 12.5px;
+  background: var(--Main-Color, #ff5b5b);
+  color: var(--White-Font, #fff);
+  font-family: Pretendard;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

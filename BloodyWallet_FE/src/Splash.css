@@ -1,0 +1,33 @@
+.container {
+  width: 375px;
+  height: 812px;
+  background: linear-gradient(171deg, #ff814d 1.79%, #ff3e3e 85.49%);
+}
+
+.app-name {
+  color: #ffbea6;
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 130px 0 70px 0;
+}
+
+.app-description {
+  color: var(--White-Font, #fff);
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.52px;
+}
+
+.image {
+  position: absolute;
+  bottom: -50px;
+  right: -40px;
+}
